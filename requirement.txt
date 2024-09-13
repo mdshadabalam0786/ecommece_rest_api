@@ -1,0 +1,8 @@
+Package            Version
+------------------ -----------
+openpyxl           3.1.5
+pandas             2.2.2
+pytest             8.3.3
+pytest-html        4.1.1
+requests           2.32.3
+
