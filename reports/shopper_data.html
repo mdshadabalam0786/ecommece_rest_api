@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">shopper_data.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">shopper_data.html</h1>
+    <p>Report generated on 13-Sep-2024 at 10:05:00 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">1 test took 00:00:03.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled/>
+            <span class="failed">0 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">1 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.11.9&#34;, &#34;Platform&#34;: &#34;Windows-10-10.0.22621-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.3.3&#34;, &#34;pluggy&#34;: &#34;1.5.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}, &#34;JAVA_HOME&#34;: &#34;D:\\jdk_environment&#34;}, &#34;tests&#34;: {&#34;test/test_shopper_login_api/test_shopper_data.py::test_shopper_data&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test/test_shopper_login_api/test_shopper_data.py::test_shopper_data&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test/test_shopper_login_api/test_shopper_data.py::test_shopper_data&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;---------------------------- Captured stdout setup -----------------------------\nfixture got called\n\n----------------------------- Captured stdout call -----------------------------\n{&amp;#x27;statusCode&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;Success&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;userId&amp;#x27;: 24256, &amp;#x27;firstName&amp;#x27;: &amp;#x27;shadab1&amp;#x27;, &amp;#x27;lastName&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;alamsahdab786@gmail.com&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327916&amp;#x27;, &amp;#x27;password&amp;#x27;: None, &amp;#x27;role&amp;#x27;: &amp;#x27;SHOPPER&amp;#x27;, &amp;#x27;gender&amp;#x27;: &amp;#x27;MALE&amp;#x27;, &amp;#x27;status&amp;#x27;: &amp;#x27;ACTIVE&amp;#x27;, &amp;#x27;token&amp;#x27;: None, &amp;#x27;dob&amp;#x27;: None, &amp;#x27;createdDateTime&amp;#x27;: &amp;#x27;2023-12-20T02:40:02.22&amp;#x27;, &amp;#x27;zoneId&amp;#x27;: &amp;#x27;ALPHA&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;imageId&amp;#x27;: None, &amp;#x27;addressList&amp;#x27;: [{&amp;#x27;addressId&amp;#x27;: 18255, &amp;#x27;name&amp;#x27;: &amp;#x27;MD Shadab Alam&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;Home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;Kormangala&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Khair Banka, ward no. 03, Bisfi&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;Karnataka&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, {&amp;#x27;addressId&amp;#x27;: 44760, &amp;#x27;name&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;banshankari 3rg street,block a&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Place: electronic City phase 1 , bettadasanpura near church&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;Karnataka&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, {&amp;#x27;addressId&amp;#x27;: 45072, &amp;#x27;name&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;banshankari 3rg street,block a&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Place: electronic City phase 1 , bettadasanpura near church&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church marry thomas&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;koccin&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;kerala&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;india&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;847121&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}], &amp;#x27;cartList&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 180965, &amp;#x27;productId&amp;#x27;: 15, &amp;#x27;quantity&amp;#x27;: 5, &amp;#x27;productName&amp;#x27;: &amp;#x27;FAIR AND HANDSOME 2X Spot Reduction |Men Face Cream Pack of 3&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/fairness/y/8/a/-original-imagg7pzn7nhhhxm.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 0.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/15&amp;#x27;}], &amp;#x27;wishList&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 166572, &amp;#x27;productId&amp;#x27;: 16, &amp;#x27;quantity&amp;#x27;: 0, &amp;#x27;productName&amp;#x27;: &amp;#x27;PONDs Bright Beauty Serum Cream Anti Spot Fairness SPF&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l09w8sw0/moisturizer-cream/t/f/l/-original-imagc3j9xev7dzzg.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 0.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/16&amp;#x27;}], &amp;#x27;shopperOrders&amp;#x27;: [{&amp;#x27;orderId&amp;#x27;: 10779, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;DELIVERED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 16445, &amp;#x27;name&amp;#x27;: &amp;#x27;shadab&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;Home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;maharajganj&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;madhubani&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;mandir&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7777765656&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 46287, &amp;#x27;productId&amp;#x27;: 8, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Skinny Men Blue Jeans&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/452/542/ktd9mkw0/jean/b/j/0/32-65504-0564-levi-s-original-imag6q2ss3tfzce5.jpeg?q=50&amp;#x27;, &amp;#x27;price&amp;#x27;: 3299.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/8&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 77782, &amp;#x27;productId&amp;#x27;: 157, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Mi Arcus Elephant Soft Toy&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://m.media-amazon.com/images/I/91vEhvqD1EL._SX466_.jpg&amp;#x27;, &amp;#x27;price&amp;#x27;: 1000.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/157&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-01-28T08:22:34.821&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-01-28T08:23:53.37&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 4299.0, &amp;#x27;discountPrice&amp;#x27;: 859.0, &amp;#x27;totalPrice&amp;#x27;: 3440.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;NET_BANKING&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 10785, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;DELIVERED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 16445, &amp;#x27;name&amp;#x27;: &amp;#x27;shadab&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;Home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;maharajganj&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;madhubani&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;mandir&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7777765656&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 78233, &amp;#x27;productId&amp;#x27;: 19, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Women Printed Cotton Blend Anarkali Kurta With Attached Dupatta&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/ethnic-set/o/x/4/4xl-bkgreen-baba-kurti-original-imagbxwtc3mh9xga-bb.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 1299.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/19&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-01-28T13:03:04.892&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-01-29T10:52:25.677&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 1299.0, &amp;#x27;discountPrice&amp;#x27;: 0.0, &amp;#x27;totalPrice&amp;#x27;: 1299.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;NET_BANKING&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 10932, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;DELIVERED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 18255, &amp;#x27;name&amp;#x27;: &amp;#x27;MD Shadab Alam&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;Home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;Kormangala&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Khair Banka, ward no. 03, Bisfi&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 79492, &amp;#x27;productId&amp;#x27;: 119, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;quot;Wrangler Men&amp;#x27;s Straight Fit Jeans&amp;quot;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://m.media-amazon.com/images/I/71O8t0-TZsL._UX569_.jpg&amp;#x27;, &amp;#x27;price&amp;#x27;: 5000.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/119&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-01-30T12:26:48.301&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-01-30T12:27:55.397&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 5000.0, &amp;#x27;discountPrice&amp;#x27;: 2500.0, &amp;#x27;totalPrice&amp;#x27;: 2500.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;NET_BANKING&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 22444, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;CANCELLED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 18255, &amp;#x27;name&amp;#x27;: &amp;#x27;MD Shadab Alam&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;Home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;Kormangala&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Khair Banka, ward no. 03, Bisfi&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 151797, &amp;#x27;productId&amp;#x27;: 10, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;HP Envy x360 Ryzen 5 Hexa Core 5600U&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/312/312/l2ghgnk0/computer/v/3/7/-original-imagdsjsjszc65fh.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 0.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/10&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 157208, &amp;#x27;productId&amp;#x27;: 9, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Santoor&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;data:image/jpeg;base64,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&amp;#x27;, &amp;#x27;price&amp;#x27;: 35.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/9&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 167146, &amp;#x27;productId&amp;#x27;: 16, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;PONDs Bright Beauty Serum Cream Anti Spot Fairness SPF&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l09w8sw0/moisturizer-cream/t/f/l/-original-imagc3j9xev7dzzg.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 300.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/16&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169262, &amp;#x27;productId&amp;#x27;: 17, &amp;#x27;quantity&amp;#x27;: 5, &amp;#x27;productName&amp;#x27;: &amp;#x27;FOREVER 21  Casual Regular Sleeves Solid Women Black Top&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l5iid8w0/top/i/w/5/s-59679101-forever-21-original-imagg66r6ntxhhfz.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 0.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/17&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-06-19T09:17:05.668&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-06-19T09:22:30.1&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 2765.0, &amp;#x27;discountPrice&amp;#x27;: 281.0, &amp;#x27;totalPrice&amp;#x27;: 2484.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;NET_BANKING&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 22445, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;CANCELLED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 18255, &amp;#x27;name&amp;#x27;: &amp;#x27;MD Shadab Alam&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;Home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;Kormangala&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Khair Banka, ward no. 03, Bisfi&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 169265, &amp;#x27;productId&amp;#x27;: 15, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;FAIR AND HANDSOME 2X Spot Reduction |Men Face Cream Pack of 3&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/fairness/y/8/a/-original-imagg7pzn7nhhhxm.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 350.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/15&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169266, &amp;#x27;productId&amp;#x27;: 16, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;PONDs Bright Beauty Serum Cream Anti Spot Fairness SPF&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l09w8sw0/moisturizer-cream/t/f/l/-original-imagc3j9xev7dzzg.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 300.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/16&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169269, &amp;#x27;productId&amp;#x27;: 17, &amp;#x27;quantity&amp;#x27;: 5, &amp;#x27;productName&amp;#x27;: &amp;#x27;FOREVER 21  Casual Regular Sleeves Solid Women Black Top&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l5iid8w0/top/i/w/5/s-59679101-forever-21-original-imagg66r6ntxhhfz.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 0.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/17&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-06-19T09:47:53.797&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-06-19T10:39:41.729&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 3115.0, &amp;#x27;discountPrice&amp;#x27;: 281.0, &amp;#x27;totalPrice&amp;#x27;: 2834.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;COD&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 22450, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;CANCELLED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 44760, &amp;#x27;name&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;banshankari 3rg street,block a&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Place: electronic City phase 1 , bettadasanpura near church&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 169290, &amp;#x27;productId&amp;#x27;: 15, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;FAIR AND HANDSOME 2X Spot Reduction |Men Face Cream Pack of 3&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/fairness/y/8/a/-original-imagg7pzn7nhhhxm.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 350.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/15&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169294, &amp;#x27;productId&amp;#x27;: 24, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Men Woven Design Silk Blend Straight Kurta&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/452/542/xif0q/kurta/g/w/d/xxl-ko-637purple-jompers-original-imafz2qk85uzxq5x-bb.jpeg?q=50&amp;#x27;, &amp;#x27;price&amp;#x27;: 1799.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/24&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169295, &amp;#x27;productId&amp;#x27;: 25, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Girls Casual Polyester Ruffled Top &amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/kids-top/o/y/d/4-5-years-ck20210454-4-5y-cutiekins-original-imag8rhbubhwbqgu-bb.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 599.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/25&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-06-19T11:36:19.437&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-06-19T11:55:11.113&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 0.0, &amp;#x27;discountPrice&amp;#x27;: 0.0, &amp;#x27;totalPrice&amp;#x27;: 0.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;COD&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 22451, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;CANCELLED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 44760, &amp;#x27;name&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;banshankari 3rg street,block a&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Place: electronic City phase 1 , bettadasanpura near church&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 169309, &amp;#x27;productId&amp;#x27;: 15, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;FAIR AND HANDSOME 2X Spot Reduction |Men Face Cream Pack of 3&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/fairness/y/8/a/-original-imagg7pzn7nhhhxm.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 350.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/15&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169310, &amp;#x27;productId&amp;#x27;: 14, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;blushis Liquid Matte Lipsticks Combo&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l4ln8nk0/lipstick/g/a/7/16-non-transfer-insta-beauty-waterproof-sensational-liquid-matte-original-imagfghxhyegbwdy.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 875.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/14&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-06-19T11:38:48.641&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-06-19T11:56:13.65&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 0.0, &amp;#x27;discountPrice&amp;#x27;: 0.0, &amp;#x27;totalPrice&amp;#x27;: 0.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;COD&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 22454, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;CANCELLED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 44760, &amp;#x27;name&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;banshankari 3rg street,block a&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Place: electronic City phase 1 , bettadasanpura near church&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 169315, &amp;#x27;productId&amp;#x27;: 14, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;blushis Liquid Matte Lipsticks Combo&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l4ln8nk0/lipstick/g/a/7/16-non-transfer-insta-beauty-waterproof-sensational-liquid-matte-original-imagfghxhyegbwdy.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 875.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/14&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169316, &amp;#x27;productId&amp;#x27;: 15, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;FAIR AND HANDSOME 2X Spot Reduction |Men Face Cream Pack of 3&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/fairness/y/8/a/-original-imagg7pzn7nhhhxm.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 350.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/15&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169317, &amp;#x27;productId&amp;#x27;: 16, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;PONDs Bright Beauty Serum Cream Anti Spot Fairness SPF&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l09w8sw0/moisturizer-cream/t/f/l/-original-imagc3j9xev7dzzg.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 300.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/16&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169318, &amp;#x27;productId&amp;#x27;: 17, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;FOREVER 21  Casual Regular Sleeves Solid Women Black Top&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l5iid8w0/top/i/w/5/s-59679101-forever-21-original-imagg66r6ntxhhfz.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 493.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/17&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-06-19T11:56:47.697&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-06-19T11:56:49.053&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 0.0, &amp;#x27;discountPrice&amp;#x27;: 0.0, &amp;#x27;totalPrice&amp;#x27;: 0.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;COD&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 22455, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;CANCELLED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 44760, &amp;#x27;name&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;banshankari 3rg street,block a&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Place: electronic City phase 1 , bettadasanpura near church&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 169320, &amp;#x27;productId&amp;#x27;: 24, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Men Woven Design Silk Blend Straight Kurta&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/452/542/xif0q/kurta/g/w/d/xxl-ko-637purple-jompers-original-imafz2qk85uzxq5x-bb.jpeg?q=50&amp;#x27;, &amp;#x27;price&amp;#x27;: 1799.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/24&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169321, &amp;#x27;productId&amp;#x27;: 25, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Girls Casual Polyester Ruffled Top &amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/kids-top/o/y/d/4-5-years-ck20210454-4-5y-cutiekins-original-imag8rhbubhwbqgu-bb.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 599.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/25&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-06-19T12:01:59.674&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-06-19T12:02:01.021&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 0.0, &amp;#x27;discountPrice&amp;#x27;: 0.0, &amp;#x27;totalPrice&amp;#x27;: 0.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;COD&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 22456, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;CANCELLED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 44760, &amp;#x27;name&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;banshankari 3rg street,block a&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Place: electronic City phase 1 , bettadasanpura near church&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 169322, &amp;#x27;productId&amp;#x27;: 16, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;PONDs Bright Beauty Serum Cream Anti Spot Fairness SPF&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l09w8sw0/moisturizer-cream/t/f/l/-original-imagc3j9xev7dzzg.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 300.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/16&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169323, &amp;#x27;productId&amp;#x27;: 15, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;FAIR AND HANDSOME 2X Spot Reduction |Men Face Cream Pack of 3&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/fairness/y/8/a/-original-imagg7pzn7nhhhxm.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 350.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/15&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169324, &amp;#x27;productId&amp;#x27;: 14, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;blushis Liquid Matte Lipsticks Combo&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/l4ln8nk0/lipstick/g/a/7/16-non-transfer-insta-beauty-waterproof-sensational-liquid-matte-original-imagfghxhyegbwdy.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 875.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/14&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-06-19T12:07:17.572&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-06-19T12:07:19.187&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 0.0, &amp;#x27;discountPrice&amp;#x27;: 0.0, &amp;#x27;totalPrice&amp;#x27;: 0.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;COD&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}, {&amp;#x27;orderId&amp;#x27;: 22457, &amp;#x27;shopperId&amp;#x27;: 24256, &amp;#x27;orderStatus&amp;#x27;: &amp;#x27;CANCELLED&amp;#x27;, &amp;#x27;address&amp;#x27;: {&amp;#x27;addressId&amp;#x27;: 44760, &amp;#x27;name&amp;#x27;: &amp;#x27;string&amp;#x27;, &amp;#x27;type&amp;#x27;: &amp;#x27;home&amp;#x27;, &amp;#x27;buildingInfo&amp;#x27;: &amp;#x27;banshankari 3rg street,block a&amp;#x27;, &amp;#x27;streetInfo&amp;#x27;: &amp;#x27;Place: electronic City phase 1 , bettadasanpura near church&amp;#x27;, &amp;#x27;landmark&amp;#x27;: &amp;#x27;near church&amp;#x27;, &amp;#x27;city&amp;#x27;: &amp;#x27;Bengaluru&amp;#x27;, &amp;#x27;state&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;country&amp;#x27;: &amp;#x27;India&amp;#x27;, &amp;#x27;pincode&amp;#x27;: &amp;#x27;560010&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;7050327911&amp;#x27;}, &amp;#x27;orderedItems&amp;#x27;: [{&amp;#x27;itemId&amp;#x27;: 169325, &amp;#x27;productId&amp;#x27;: 19, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Women Printed Cotton Blend Anarkali Kurta With Attached Dupatta&amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/xif0q/ethnic-set/o/x/4/4xl-bkgreen-baba-kurti-original-imagbxwtc3mh9xga-bb.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 1299.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/19&amp;#x27;}, {&amp;#x27;itemId&amp;#x27;: 169326, &amp;#x27;productId&amp;#x27;: 20, &amp;#x27;quantity&amp;#x27;: 1, &amp;#x27;productName&amp;#x27;: &amp;#x27;Women Printed Viscose Rayon Straight Kurta &amp;#x27;, &amp;#x27;imageLink&amp;#x27;: &amp;#x27;https://rukminim1.flixcart.com/image/832/832/kqpj4i80/kurta/j/h/8/xl-ku632lgn-mokshi-original-imag4nmvvfny6vyf.jpeg?q=70&amp;#x27;, &amp;#x27;price&amp;#x27;: 1677.0, &amp;#x27;productLink&amp;#x27;: &amp;#x27;/products/20&amp;#x27;}], &amp;#x27;orderDate&amp;#x27;: &amp;#x27;2024-06-19T12:08:58.749&amp;#x27;, &amp;#x27;lastModifiedDate&amp;#x27;: &amp;#x27;2024-06-19T12:09:00.076&amp;#x27;, &amp;#x27;deliveredDate&amp;#x27;: None, &amp;#x27;actualPrice&amp;#x27;: 0.0, &amp;#x27;discountPrice&amp;#x27;: 0.0, &amp;#x27;totalPrice&amp;#x27;: 0.0, &amp;#x27;paymentMode&amp;#x27;: &amp;#x27;COD&amp;#x27;, &amp;#x27;transactionId&amp;#x27;: 0}], &amp;#x27;likes&amp;#x27;: None, &amp;#x27;jwtToken&amp;#x27;: None}}\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;shopper_data.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
